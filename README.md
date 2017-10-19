@@ -34,16 +34,16 @@ npm i flash-loading --save
 - 传入`content`增加内容
 
 ```
-<Loading content="React test app" styles="custom-style" handle={() => console.log("React test app")} />
+import Loading from 'flash-loading';
+
+<Loading open={true} />
 
 ```
 ### 配置参数
 
 | Prop | Type | Default | Description |
 | ---- |:----:|:-------:| :----------:|
-| **`content`** | `string` | `undefined` | 主要内容 |
-| **`handle`** | `func` | `undefined` | 点击触发事件 |
-| **`styles`** | `string` | `undefined` | 自定义className |
+| **`open`** | `bool` | `false` | 开关 |
 
 ---
 
